@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#323a45</color>
+    <color name="colorPrimaryDark">#238D6D</color>
+    <color name="colorAccent">#ff3636</color>
+
+    <color name="background">#F0F0F0</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="color_main_icon">#0fb390</color>
+    <color name="color_main_icon_normal">#43948d</color>
+    <color name="color_main_icon_pressd">#33716C</color>
+    <!--<color name="color_main_icon_normal">#59c4bc</color>-->
+    <!--<color name="color_main_icon_pressd">#43948d</color>-->
+    <color name="color_main_icon_text">#FFFFFF</color>
+
+    <color name="color_main_bottom">#9fa7b4</color>
+    <color name="color_main_bottom_text">#323232</color>
+
+    <color name="color_input_panel_normal">#eaedf2</color>
+    <color name="color_input_panel_pressd">#d2d9e3</color>
+
+    <color name="color_input_panel_hint">#9ea7b3</color>
+
+    <color name="color_main_normal_text">#323232</color>
+
+    <color name="color_web_text">#676a6c</color>
+    <color name="color_web_box_stroke_normal">#d2d2d2</color>
+    <color name="color_web_box_stroke_pressed">#b2b2b2</color>
+
+    <color name="color_web_btn_search_normal">#1c84c6</color>
+    <color name="color_web_btn_search_pressed">#156295</color>
+</resources>

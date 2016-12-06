@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group_1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ico_home_s"
+            android:title="@string/txt_home" />
+        <item
+            android:id="@+id/nav_sale_stock"
+            android:icon="@drawable/ico_sale_stock_s"
+            android:title="@string/txt_sale_stock" />
+        <item
+            android:id="@+id/nav_sale_after_purchase"
+            android:icon="@drawable/ico_sale_after_purchase_s"
+            android:title="@string/txt_sale_after_purchase" />
+        <item
+            android:id="@+id/nav_sale_list"
+            android:icon="@drawable/ico_sale_list_s"
+            android:title="@string/txt_sale_list" />
+        <item
+            android:id="@+id/nav_stock_list"
+            android:icon="@drawable/ico_stock_list_s"
+            android:title="@string/txt_stock_list" />
+        <item
+            android:id="@+id/nav_cust_list"
+            android:icon="@drawable/ico_cust_list_s"
+            android:title="@string/txt_cust_list" />
+        <item
+            android:id="@+id/nav_file_manager"
+            android:icon="@drawable/ico_file_manager_s"
+            android:title="@string/txt_file_manager" />
+        <item
+            android:id="@+id/nav_alert"
+            android:icon="@drawable/ico_alert_s"
+            android:title="@string/txt_alert" />
+        <item
+            android:id="@+id/nav_factory_cert"
+            android:icon="@drawable/ico_factory_cert_s"
+            android:title="@string/txt_factory_cert" />
+        <item
+            android:id="@+id/nav_mobilefax"
+            android:icon="@drawable/ico_mobile_fax_s"
+            android:title="@string/txt_mobilefax" />
+    </group>
+
+    <group
+        android:id="@+id/group_2"
+        android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_pc_ver"
+                android:icon="@drawable/ico_pc_ver"
+                android:title="PC버전" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ico_logout"
+                android:title="logout" />
+    </group>
+
+</menu>

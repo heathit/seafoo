@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true"> <!-- pressed -->
+        <shape>
+            <solid android:color="@color/color_input_panel_pressd"/>
+            <corners android:bottomRightRadius="5dp"
+                android:bottomLeftRadius="5dp"/>
+        </shape>
+    </item>
+    <item android:state_focused="true"> <!-- focused -->
+        <shape>
+            <solid android:color="@color/color_input_panel_pressd"/>
+            <corners android:bottomRightRadius="5dp"
+                android:bottomLeftRadius="5dp"/>
+        </shape>
+    </item>
+    <item android:state_enabled="true"> <!-- enabled -->
+        <shape>
+            <solid android:color="@color/color_input_panel_normal"/>
+            <corners android:bottomRightRadius="5dp"
+                android:bottomLeftRadius="5dp"/>
+        </shape>
+    </item>
+    <item> <!-- default -->
+        <shape>
+            <solid android:color="@color/color_input_panel_normal"/>
+            <corners android:bottomRightRadius="5dp"
+                android:bottomLeftRadius="5dp"/>
+        </shape>
+    </item>
+</selector>

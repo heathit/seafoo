@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true"> <!-- pressed -->
+        <shape android:shape="rectangle">
+            <solid android:color="@color/color_web_btn_search_pressed"/>
+            <corners android:radius="3dp"/>
+        </shape>
+    </item>
+    <item android:state_focused="true"> <!-- focused -->
+        <shape android:shape="rectangle">
+            <solid android:color="@color/color_web_btn_search_pressed"/>
+            <corners android:radius="3dp"/>
+        </shape>
+    </item>
+    <item android:state_enabled="true"> <!-- enabled -->
+        <shape android:shape="rectangle">
+            <solid android:color="@color/color_web_btn_search_normal"/>
+            <corners android:radius="3dp"/>
+        </shape>
+    </item>
+    <item> <!-- default -->
+        <shape android:shape="rectangle">
+            <solid android:color="@color/color_web_btn_search_normal"/>
+            <corners android:radius="3dp"/>
+        </shape>
+    </item>
+</selector>

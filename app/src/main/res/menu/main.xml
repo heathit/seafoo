@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/select_workplace"
+        android:orderInCategory="100"
+        android:title="사업장선택"
+        app:showAsAction="always" />
+    <!--<item-->
+        <!--android:id="@+id/nav_mobilefax"-->
+        <!--android:icon="@drawable/ico_mobile_fax_w"-->
+        <!--android:title="@string/txt_mobilefax"-->
+        <!--app:showAsAction="always"-->
+        <!--/>-->
+</menu>

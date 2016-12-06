@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.WebFragment">
+
+    <FrameLayout
+        android:id="@+id/sub_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        />
+
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/sub_fragment"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sub_fragment"
+        android:gravity="center"
+        >
+        <ImageButton
+            android:id="@+id/btn_drop_panel"
+            android:layout_width="70dp"
+            android:layout_height="15dp"
+            android:src="@drawable/ic_arrow_drop_down_black_24dp"
+            android:background="@drawable/bg_color_round_b"
+            android:visibility="gone"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

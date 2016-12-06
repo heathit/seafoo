@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/color_main_icon_pressd"
+        android:state_pressed="true"/> <!-- pressed -->
+    <item android:drawable="@color/color_main_icon_pressd"
+        android:state_focused="true"/> <!-- focused -->
+    <item android:drawable="@color/color_main_icon_normal"
+        android:state_enabled="true"/> <!-- enabled -->
+    <item android:drawable="@color/color_main_icon_normal" /> <!-- default -->
+</selector>
